@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Entry program for make.fun competition news-image-20261121.
+"""Entry program for make.fun competition news-image-20261121 (v2 rebuild).
 
-Copies the bundled entry.png (the 21 November 2026 news image, built
-for this entry) to $MAKEFUN_OUTPUT_DIR/entry.png (default /output).
-Standard library only; no network access; deterministic output.
+Copies the bundled entry.png (the 21 November 2026 news image, rebuilt
+with the full day's verified news) to $MAKEFUN_OUTPUT_DIR/entry.png
+(default /output). Standard library only; no network access;
+deterministic output: two runs write byte-identical files.
 """
 import os
 import shutil
